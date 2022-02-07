@@ -62,5 +62,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>$(XSavage) camera use</string>
+	<key>Privacy - Photo Library Usage Description    </key>
+	<string>$(XSavage) photo use</string>
 </dict>
 </plist>

@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16CD24CDFEDF6C7167AD1EA0 /* Pods_XSavage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C01F85D1EFA222803D9427 /* Pods_XSavage.framework */; };
+		34DEDF3B24772641CCAB27D5 /* Pods_XSavage_XSavageUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E737E5C44AFF7FA5DFFC8EFD /* Pods_XSavage_XSavageUITests.framework */; };
 		A520B8FE276F23EA00C51ABE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A520B8FD276F23EA00C51ABE /* AppDelegate.swift */; };
 		A520B900276F23EA00C51ABE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A520B8FF276F23EA00C51ABE /* SceneDelegate.swift */; };
 		A520B902276F23EA00C51ABE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A520B901276F23EA00C51ABE /* ViewController.swift */; };
@@ -16,6 +18,13 @@
 		A520B90D276F23EA00C51ABE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A520B90B276F23EA00C51ABE /* LaunchScreen.storyboard */; };
 		A520B918276F23EA00C51ABE /* XSavageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A520B917276F23EA00C51ABE /* XSavageTests.swift */; };
 		A520B923276F23EA00C51ABE /* XSavageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A520B922276F23EA00C51ABE /* XSavageUITests.swift */; };
+		A520F485279448F200D5293E /* MapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A520F484279448F200D5293E /* MapKitViewController.swift */; };
+		A52604EF278337EB004451A0 /* СustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52604EE278337EB004451A0 /* СustomTableViewCell.swift */; };
+		A52604F3278363D8004451A0 /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52604F2278363D8004451A0 /* PlaceModel.swift */; };
+		A567E952278993CF008C0675 /* AddRestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A567E951278993CF008C0675 /* AddRestViewController.swift */; };
+		A56EC5A3278DDB0A0038F310 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56EC5A2278DDB0A0038F310 /* StorageManager.swift */; };
+		A56EC5A5278E1B550038F310 /* DeletedMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56EC5A4278E1B550038F310 /* DeletedMethods.swift */; };
+		D4347B6CCDF66B447717513D /* Pods_XSavageTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E004E67CB95C082975E70CCE /* Pods_XSavageTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D0A8B96C9EBE7B674958BAB /* Pods-XSavage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XSavage.debug.xcconfig"; path = "Target Support Files/Pods-XSavage/Pods-XSavage.debug.xcconfig"; sourceTree = "<group>"; };
+		29C01F85D1EFA222803D9427 /* Pods_XSavage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XSavage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80AF6FDACDE8125158991EA9 /* Pods-XSavage-XSavageUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XSavage-XSavageUITests.release.xcconfig"; path = "Target Support Files/Pods-XSavage-XSavageUITests/Pods-XSavage-XSavageUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A520B8FA276F23EA00C51ABE /* XSavage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XSavage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A520B8FD276F23EA00C51ABE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A520B8FF276F23EA00C51ABE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +63,18 @@
 		A520B91E276F23EA00C51ABE /* XSavageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XSavageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A520B922276F23EA00C51ABE /* XSavageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XSavageUITests.swift; sourceTree = "<group>"; };
 		A520B924276F23EA00C51ABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A520F484279448F200D5293E /* MapKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitViewController.swift; sourceTree = "<group>"; };
+		A52604EE278337EB004451A0 /* СustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "СustomTableViewCell.swift"; sourceTree = "<group>"; wrapsLines = 0; };
+		A52604F2278363D8004451A0 /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
+		A567E951278993CF008C0675 /* AddRestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRestViewController.swift; sourceTree = "<group>"; };
+		A56EC5A2278DDB0A0038F310 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		A56EC5A4278E1B550038F310 /* DeletedMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletedMethods.swift; sourceTree = "<group>"; };
+		C0DDDAC7798E913675B9150E /* Pods-XSavage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XSavage.release.xcconfig"; path = "Target Support Files/Pods-XSavage/Pods-XSavage.release.xcconfig"; sourceTree = "<group>"; };
+		C616F527BF5C09C0C2D289E5 /* Pods-XSavageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XSavageTests.release.xcconfig"; path = "Target Support Files/Pods-XSavageTests/Pods-XSavageTests.release.xcconfig"; sourceTree = "<group>"; };
+		E004E67CB95C082975E70CCE /* Pods_XSavageTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XSavageTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E737E5C44AFF7FA5DFFC8EFD /* Pods_XSavage_XSavageUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XSavage_XSavageUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7B455318A71E4F31B5A2519 /* Pods-XSavageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XSavageTests.debug.xcconfig"; path = "Target Support Files/Pods-XSavageTests/Pods-XSavageTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F1D48D0D23518E38AE8EF520 /* Pods-XSavage-XSavageUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XSavage-XSavageUITests.debug.xcconfig"; path = "Target Support Files/Pods-XSavage-XSavageUITests/Pods-XSavage-XSavageUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16CD24CDFEDF6C7167AD1EA0 /* Pods_XSavage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4347B6CCDF66B447717513D /* Pods_XSavageTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +98,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34DEDF3B24772641CCAB27D5 /* Pods_XSavage_XSavageUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9ACA082A802DE4A05081DC33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D0A8B96C9EBE7B674958BAB /* Pods-XSavage.debug.xcconfig */,
+				C0DDDAC7798E913675B9150E /* Pods-XSavage.release.xcconfig */,
+				F1D48D0D23518E38AE8EF520 /* Pods-XSavage-XSavageUITests.debug.xcconfig */,
+				80AF6FDACDE8125158991EA9 /* Pods-XSavage-XSavageUITests.release.xcconfig */,
+				E7B455318A71E4F31B5A2519 /* Pods-XSavageTests.debug.xcconfig */,
+				C616F527BF5C09C0C2D289E5 /* Pods-XSavageTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A520B8F1276F23EA00C51ABE = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +125,8 @@
 				A520B916276F23EA00C51ABE /* XSavageTests */,
 				A520B921276F23EA00C51ABE /* XSavageUITests */,
 				A520B8FB276F23EA00C51ABE /* Products */,
+				9ACA082A802DE4A05081DC33 /* Pods */,
+				D67B6D41B251B32FE745EAEA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +146,12 @@
 				A520B8FD276F23EA00C51ABE /* AppDelegate.swift */,
 				A520B8FF276F23EA00C51ABE /* SceneDelegate.swift */,
 				A520B901276F23EA00C51ABE /* ViewController.swift */,
+				A56EC5A4278E1B550038F310 /* DeletedMethods.swift */,
+				A567E951278993CF008C0675 /* AddRestViewController.swift */,
+				A52604F2278363D8004451A0 /* PlaceModel.swift */,
+				A520F484279448F200D5293E /* MapKitViewController.swift */,
+				A56EC5A2278DDB0A0038F310 /* StorageManager.swift */,
+				A52604EE278337EB004451A0 /* СustomTableViewCell.swift */,
 				A520B903276F23EA00C51ABE /* Main.storyboard */,
 				A520B909276F23EA00C51ABE /* Assets.xcassets */,
 				A520B90B276F23EA00C51ABE /* LaunchScreen.storyboard */,
@@ -131,6 +179,16 @@
 			path = XSavageUITests;
 			sourceTree = "<group>";
 		};
+		D67B6D41B251B32FE745EAEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29C01F85D1EFA222803D9427 /* Pods_XSavage.framework */,
+				E737E5C44AFF7FA5DFFC8EFD /* Pods_XSavage_XSavageUITests.framework */,
+				E004E67CB95C082975E70CCE /* Pods_XSavageTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A520B927276F23EA00C51ABE /* Build configuration list for PBXNativeTarget "XSavage" */;
 			buildPhases = (
+				58E25EAEA3CEEC199F891103 /* [CP] Check Pods Manifest.lock */,
 				A520B8F6276F23EA00C51ABE /* Sources */,
 				A520B8F7276F23EA00C51ABE /* Frameworks */,
 				A520B8F8276F23EA00C51ABE /* Resources */,
+				B9568ED4EA89C75F4BD9D2BA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A520B92A276F23EA00C51ABE /* Build configuration list for PBXNativeTarget "XSavageTests" */;
 			buildPhases = (
+				83DD068BB8C9FAD0B312A913 /* [CP] Check Pods Manifest.lock */,
 				A520B90F276F23EA00C51ABE /* Sources */,
 				A520B910276F23EA00C51ABE /* Frameworks */,
 				A520B911276F23EA00C51ABE /* Resources */,
@@ -173,9 +234,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A520B92D276F23EA00C51ABE /* Build configuration list for PBXNativeTarget "XSavageUITests" */;
 			buildPhases = (
+				98D556BEED9A07C896FC967F /* [CP] Check Pods Manifest.lock */,
 				A520B91A276F23EA00C51ABE /* Sources */,
 				A520B91B276F23EA00C51ABE /* Frameworks */,
 				A520B91C276F23EA00C51ABE /* Resources */,
+				D998353BB7F73044E3160029 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -210,7 +273,7 @@
 				};
 			};
 			buildConfigurationList = A520B8F5276F23EA00C51ABE /* Build configuration list for PBXProject "XSavage" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -256,13 +319,122 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		58E25EAEA3CEEC199F891103 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XSavage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83DD068BB8C9FAD0B312A913 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XSavageTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98D556BEED9A07C896FC967F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XSavage-XSavageUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9568ED4EA89C75F4BD9D2BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XSavage/Pods-XSavage-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XSavage/Pods-XSavage-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XSavage/Pods-XSavage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D998353BB7F73044E3160029 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XSavage-XSavageUITests/Pods-XSavage-XSavageUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XSavage-XSavageUITests/Pods-XSavage-XSavageUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XSavage-XSavageUITests/Pods-XSavage-XSavageUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A520B8F6276F23EA00C51ABE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A52604EF278337EB004451A0 /* СustomTableViewCell.swift in Sources */,
+				A52604F3278363D8004451A0 /* PlaceModel.swift in Sources */,
 				A520B902276F23EA00C51ABE /* ViewController.swift in Sources */,
+				A520F485279448F200D5293E /* MapKitViewController.swift in Sources */,
+				A567E952278993CF008C0675 /* AddRestViewController.swift in Sources */,
 				A520B8FE276F23EA00C51ABE /* AppDelegate.swift in Sources */,
+				A56EC5A5278E1B550038F310 /* DeletedMethods.swift in Sources */,
+				A56EC5A3278DDB0A0038F310 /* StorageManager.swift in Sources */,
 				A520B900276F23EA00C51ABE /* SceneDelegate.swift in Sources */,
 				A520B908276F23EA00C51ABE /* XSavage.xcdatamodeld in Sources */,
 			);
@@ -370,7 +542,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -425,7 +597,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -437,6 +609,7 @@
 		};
 		A520B928276F23EA00C51ABE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D0A8B96C9EBE7B674958BAB /* Pods-XSavage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +629,7 @@
 		};
 		A520B929276F23EA00C51ABE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0DDDAC7798E913675B9150E /* Pods-XSavage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,6 +649,7 @@
 		};
 		A520B92B276F23EA00C51ABE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7B455318A71E4F31B5A2519 /* Pods-XSavageTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +672,7 @@
 		};
 		A520B92C276F23EA00C51ABE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C616F527BF5C09C0C2D289E5 /* Pods-XSavageTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +695,7 @@
 		};
 		A520B92E276F23EA00C51ABE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1D48D0D23518E38AE8EF520 /* Pods-XSavage-XSavageUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +716,7 @@
 		};
 		A520B92F276F23EA00C51ABE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80AF6FDACDE8125158991EA9 /* Pods-XSavage-XSavageUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
